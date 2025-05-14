@@ -135,3 +135,13 @@ E:\Sarkis\Sarkis\obj\Debug\Sarkis.csproj.CoreCompileInputs.cache
 E:\Sarkis\Sarkis\obj\Debug\Sarkis.csproj.Up2Date
 E:\Sarkis\Sarkis\obj\Debug\Sarkis.dll
 E:\Sarkis\Sarkis\obj\Debug\Sarkis.pdb
+E:\Sarkis\Sarkis\bin\BussinesLogic.dll
+E:\Sarkis\Sarkis\bin\Domain.dll
+E:\Sarkis\Sarkis\bin\EntityFramework.dll
+E:\Sarkis\Sarkis\bin\EntityFramework.SqlServer.dll
+E:\Sarkis\Sarkis\bin\BussinesLogic.pdb
+E:\Sarkis\Sarkis\bin\BussinesLogic.dll.config
+E:\Sarkis\Sarkis\bin\Domain.pdb
+E:\Sarkis\Sarkis\bin\Domain.dll.config
+E:\Sarkis\Sarkis\bin\EntityFramework.xml
+E:\Sarkis\Sarkis\bin\EntityFramework.SqlServer.xml

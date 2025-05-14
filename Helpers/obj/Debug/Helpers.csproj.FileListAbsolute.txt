@@ -1,0 +1,12 @@
+E:\Sarkis\Helpers\bin\Debug\Helpers.dll.config
+E:\Sarkis\Helpers\bin\Debug\Helpers.dll
+E:\Sarkis\Helpers\bin\Debug\Helpers.pdb
+E:\Sarkis\Helpers\bin\Debug\EntityFramework.dll
+E:\Sarkis\Helpers\bin\Debug\EntityFramework.SqlServer.dll
+E:\Sarkis\Helpers\bin\Debug\EntityFramework.xml
+E:\Sarkis\Helpers\bin\Debug\EntityFramework.SqlServer.xml
+E:\Sarkis\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
+E:\Sarkis\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+E:\Sarkis\Helpers\obj\Debug\Helpers.csproj.Up2Date
+E:\Sarkis\Helpers\obj\Debug\Helpers.dll
+E:\Sarkis\Helpers\obj\Debug\Helpers.pdb
