@@ -11,19 +11,19 @@ namespace Sarkis.Controllers
           [HttpPost]
           public ActionResult Buy()
           {
-               // dacă utilizatorul nu este autentificat
+          
                if (!User.Identity.IsAuthenticated)
                {
                     return RedirectToAction("Authentification", "Auth");
                }
 
-               // altfel, mergi la pagina de rezervare
-               return RedirectToAction("Confirm"); // sau ce pagină ai pentru finalizare
+
+               return RedirectToAction("Reservare"); 
           }
 
           public ActionResult Confirm()
           {
-               return View(); // aici ar fi pagina unde se finalizează comanda
+               return View(); 
           }
      }
 }

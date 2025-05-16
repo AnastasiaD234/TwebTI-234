@@ -22,5 +22,6 @@ namespace Sarkis
               
            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
     }
 }

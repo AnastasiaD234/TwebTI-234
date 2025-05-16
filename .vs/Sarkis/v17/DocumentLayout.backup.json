@@ -3,44 +3,72 @@
   "WorkspaceRootPath": "E:\\Sarkis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|E:\\Sarkis\\sarkis\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|e:\\sarkis\\sarkis\\views\\auth\\authentification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\views\\auth\\authentification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|E:\\Sarkis\\domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|E:\\Sarkis\\domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|E:\\Sarkis\\domain\\entities\\user\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|E:\\Sarkis\\domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|E:\\Sarkis\\sarkis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|e:\\sarkis\\sarkis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|E:\\Sarkis\\bussineslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|e:\\sarkis\\bussineslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|solutionrelative:bussineslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|E:\\Sarkis\\domain\\model\\user\\userlogindtd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\model\\user\\userlogindtd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AC2E36A-DAE5-4838-B8B4-B2F566CC3F7B}|Helpers\\Helpers.csproj|e:\\sarkis\\helpers\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC2E36A-DAE5-4838-B8B4-B2F566CC3F7B}|Helpers\\Helpers.csproj|solutionrelative:helpers\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|E:\\Sarkis\\bussineslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|e:\\sarkis\\bussineslogic\\interfaces\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|solutionrelative:bussineslogic\\interfaces\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|e:\\sarkis\\bussineslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|solutionrelative:bussineslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|e:\\sarkis\\sarkis\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|e:\\sarkis\\bussineslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|solutionrelative:bussineslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|e:\\sarkis\\domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|e:\\sarkis\\sarkis\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|e:\\sarkis\\sarkis\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\models\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|e:\\sarkis\\domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|e:\\sarkis\\domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|e:\\sarkis\\domain\\entities\\user\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE488F27-7AE8-40C5-A710-2B9BC6C81501}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|e:\\sarkis\\sarkis\\controllers\\logincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\controllers\\logincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|e:\\sarkis\\bussineslogic\\dbmodel\\seshcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|solutionrelative:bussineslogic\\dbmodel\\seshcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|e:\\sarkis\\bussineslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C05D0BD-90EE-40F1-855A-9BE6EC3A2DC9}|BussinesLogic\\BussinesLogic.csproj|solutionrelative:bussineslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|e:\\sarkis\\sarkis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E369C3D-A6DD-49D6-8B69-05DCA85A8AC6}|Sarkis\\Sarkis.csproj|solutionrelative:sarkis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +78,228 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Sarkis\\Sarkis\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Sarkis\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\Sarkis\\Sarkis\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Sarkis\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T19:25:34.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Sarkis\\Sarkis\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Sarkis\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\Sarkis\\Sarkis\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Sarkis\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T19:00:31.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ULoginResp.cs",
-              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginResp.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User\\ULoginResp.cs",
-              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginResp.cs",
-              "RelativeToolTip": "Domain\\Entities\\User\\ULoginResp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:47:20.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ULoginData.cs",
-              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginData.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User\\ULoginData.cs",
-              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginData.cs",
-              "RelativeToolTip": "Domain\\Entities\\User\\ULoginData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:46:54.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "URole.cs",
-              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\URole.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User\\URole.cs",
-              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\URole.cs",
-              "RelativeToolTip": "Domain\\Entities\\User\\URole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:39:37.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserAPI.cs",
-              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\Core\\UserAPI.cs",
-              "RelativeDocumentMoniker": "BussinesLogic\\Core\\UserAPI.cs",
-              "ToolTip": "E:\\Sarkis\\BussinesLogic\\Core\\UserAPI.cs",
-              "RelativeToolTip": "BussinesLogic\\Core\\UserAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:36:18.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserLoginDTD.cs",
-              "DocumentMoniker": "E:\\Sarkis\\Domain\\Model\\User\\UserLoginDTD.cs",
-              "RelativeDocumentMoniker": "Domain\\Model\\User\\UserLoginDTD.cs",
-              "ToolTip": "E:\\Sarkis\\Domain\\Model\\User\\UserLoginDTD.cs",
-              "RelativeToolTip": "Domain\\Model\\User\\UserLoginDTD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:39:20.214Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T19:19:49.653Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\DBModel\\UserContext.cs",
-              "RelativeDocumentMoniker": "BussinesLogic\\DBModel\\UserContext.cs",
-              "ToolTip": "E:\\Sarkis\\BussinesLogic\\DBModel\\UserContext.cs",
-              "RelativeToolTip": "BussinesLogic\\DBModel\\UserContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:36:00.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UDbTable.cs",
-              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\UDbTable.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User\\UDbTable.cs",
-              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\UDbTable.cs",
-              "RelativeToolTip": "Domain\\Entities\\User\\UDbTable.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:35:43.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "E:\\Sarkis\\Sarkis\\Web.config",
               "RelativeDocumentMoniker": "Sarkis\\Web.config",
               "ToolTip": "E:\\Sarkis\\Sarkis\\Web.config",
               "RelativeToolTip": "Sarkis\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-13T18:24:31.601Z",
+              "WhenOpened": "2025-05-15T20:39:37.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "BussinesLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "E:\\Sarkis\\BussinesLogic\\DBModel\\UserContext.cs",
+              "RelativeToolTip": "BussinesLogic\\DBModel\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:39:04.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRegister.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Sarkis\\Models\\UserRegister.cs",
+              "RelativeDocumentMoniker": "Sarkis\\Models\\UserRegister.cs",
+              "ToolTip": "E:\\Sarkis\\Sarkis\\Models\\UserRegister.cs",
+              "RelativeToolTip": "Sarkis\\Models\\UserRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:38:24.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Sarkis\\Models\\UserLogin.cs",
+              "RelativeDocumentMoniker": "Sarkis\\Models\\UserLogin.cs",
+              "ToolTip": "E:\\Sarkis\\Sarkis\\Models\\UserLogin.cs",
+              "RelativeToolTip": "Sarkis\\Models\\UserLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:27:47.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UDbTable.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\UDbTable.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\UDbTable.cs",
+              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\UDbTable.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\UDbTable.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:44:18.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\Interfaces\\SessionBL.cs",
+              "RelativeDocumentMoniker": "BussinesLogic\\Interfaces\\SessionBL.cs",
+              "ToolTip": "E:\\Sarkis\\BussinesLogic\\Interfaces\\SessionBL.cs",
+              "RelativeToolTip": "BussinesLogic\\Interfaces\\SessionBL.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:49:15.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ULoginData.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginData.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\ULoginData.cs",
+              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginData.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\ULoginData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:26:31.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hash.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Helpers\\Hash.cs",
+              "RelativeDocumentMoniker": "Helpers\\Hash.cs",
+              "ToolTip": "E:\\Sarkis\\Helpers\\Hash.cs",
+              "RelativeToolTip": "Helpers\\Hash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:32:49.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserAPI.cs",
+              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\Core\\UserAPI.cs",
+              "RelativeDocumentMoniker": "BussinesLogic\\Core\\UserAPI.cs",
+              "ToolTip": "E:\\Sarkis\\BussinesLogic\\Core\\UserAPI.cs",
+              "RelativeToolTip": "BussinesLogic\\Core\\UserAPI.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowGEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:28:39.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ULoginResp.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\ULoginResp.cs",
+              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\ULoginResp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:27:39.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Session.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Domain\\Entities\\User\\Session.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\Session.cs",
+              "ToolTip": "E:\\Sarkis\\Domain\\Entities\\User\\Session.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:27:33.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISession.cs",
+              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\Interfaces\\ISession.cs",
+              "RelativeDocumentMoniker": "BussinesLogic\\Interfaces\\ISession.cs",
+              "ToolTip": "E:\\Sarkis\\BussinesLogic\\Interfaces\\ISession.cs",
+              "RelativeToolTip": "BussinesLogic\\Interfaces\\ISession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:00:48.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginControllers.cs",
+              "DocumentMoniker": "E:\\Sarkis\\Sarkis\\Controllers\\LoginControllers.cs",
+              "RelativeDocumentMoniker": "Sarkis\\Controllers\\LoginControllers.cs",
+              "ToolTip": "E:\\Sarkis\\Sarkis\\Controllers\\LoginControllers.cs",
+              "RelativeToolTip": "Sarkis\\Controllers\\LoginControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:27:17.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SeshContext.cs",
+              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\DBModel\\SeshContext.cs",
+              "RelativeDocumentMoniker": "BussinesLogic\\DBModel\\SeshContext.cs",
+              "ToolTip": "E:\\Sarkis\\BussinesLogic\\DBModel\\SeshContext.cs",
+              "RelativeToolTip": "BussinesLogic\\DBModel\\SeshContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:48:12.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminApi.cs",
+              "DocumentMoniker": "E:\\Sarkis\\BussinesLogic\\Core\\AdminApi.cs",
+              "RelativeDocumentMoniker": "BussinesLogic\\Core\\AdminApi.cs",
+              "ToolTip": "E:\\Sarkis\\BussinesLogic\\Core\\AdminApi.cs",
+              "RelativeToolTip": "BussinesLogic\\Core\\AdminApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:45:47.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Authentification.cshtml",
+              "DocumentMoniker": "E:\\Sarkis\\Sarkis\\Views\\Auth\\Authentification.cshtml",
+              "RelativeDocumentMoniker": "Sarkis\\Views\\Auth\\Authentification.cshtml",
+              "ToolTip": "E:\\Sarkis\\Sarkis\\Views\\Auth\\Authentification.cshtml",
+              "RelativeToolTip": "Sarkis\\Views\\Auth\\Authentification.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T19:41:27.858Z",
               "EditorCaption": ""
             }
           ]

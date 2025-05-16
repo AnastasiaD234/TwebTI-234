@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Remoting.Contexts;
 
 namespace BussinesLogic.DBModel
 {
@@ -15,7 +16,7 @@ namespace BussinesLogic.DBModel
           {
           }
 
-          public virtual DbSet<UDbTable> Users { get; set; }
+          public  DbSet<UDbTable> Users { get; set; }
      }
 }
 

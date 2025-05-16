@@ -1,18 +1,18 @@
-﻿using BussinesLogic.BLStructure;
-using BussinesLogic.Interfaces;
+﻿using BussinesLogic.DBModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BussinesLogic.Interfaces;
 
-namespace BussinesLogic
+namespace BussinesLogic.Interfaces
 {
      public class BussinesLogic
      {
-          public IAuth GetAuthBL()
+          public ISession GetSessionBL()
           {
-               return new AuthBL();
+               return new SessionBL();
           }
      }
 }

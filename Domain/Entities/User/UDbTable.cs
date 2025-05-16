@@ -13,7 +13,7 @@ namespace Domain.Entities.User
           [Key]
           [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
-          public int Id { get; set; }
+     
           [Required]
           [Display(Name ="Username")]
           [StringLength(30, MinimumLength =5, ErrorMessage ="Username cannot be longer than 30 characters.")]
@@ -22,7 +22,7 @@ namespace Domain.Entities.User
 
           [Required]
           [Display(Name = "Password")]
-          [StringLength(50, MinimumLength = 8, ErrorMessage = "Username cannot be shorter than 8 characters.")]
+          [StringLength(50, MinimumLength = 8, ErrorMessage = "Password cannot be shorter than 8 characters.")]
 
           public string Password { get; set; }
 

@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sarkis.Models.Auth
+namespace Sarkis.Models
 {
-     public class UserDataLogin
+     public class UserLogin
+
      {
-          public string Username {  get; set; }
+          public string Username { get; set; }
           public string Password { get; set; }
      }
 }
