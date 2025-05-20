@@ -1,0 +1,49 @@
+﻿
+@{
+     ViewBag.Title = "AddProduct";
+}
+
+@model Sarkis.Models.ProductModel
+
+@{
+     Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8" />
+     <title>Adaugă produs</title>
+     @section Styles{}
+     <link rel="stylesheet" href="~/Content/addproduct/style-product.css" />
+     
+</head>
+<body>
+     <div class="center-wrapper">
+          @using (Html.BeginForm("AddProduct", "Admin", FormMethod.Post))
+          {
+               <div class="form-container">
+                    <h2>Adaugă produs</h2>
+
+                    <div class="form-group">
+                         @Html.Label("Nume produs")
+                         @Html.TextBox("Name", null, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                         @Html.Label("Descriere")
+                         @Html.TextArea("Description", null, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                         @Html.Label("Preț")
+                         @Html.TextBox("Price", null, new { @class = "form-control", type = "number" })
+                    </div>
+
+                    <button type="submit" class="btn-submit">Adaugă</button>
+               </div>
+          }
+     </div>
+</body>
+</html>

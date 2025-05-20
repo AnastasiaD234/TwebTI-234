@@ -1,4 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -44,6 +45,15 @@
   <ItemGroup>
     <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
       <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.10.1.1\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
@@ -143,10 +153,27 @@
     <Content Include="bin\System.Web.WebPages.Razor.xml" />
     <Content Include="bin\System.Web.WebPages.xml" />
     <Content Include="bin\WebGrease.dll" />
+    <Content Include="Content\addproduct\style-product.css" />
     <Content Include="Content\animate.css\animate.compat.css" />
     <Content Include="Content\animate.css\animate.css" />
     <Content Include="Content\animate.css\animate.min.css" />
     <Content Include="Content\aos\aos.css" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\css\authetification_style.css" />
     <Content Include="Content\css\profilestyle.css" />
     <Content Include="Content\css\style.css" />
@@ -248,31 +275,31 @@
     <Content Include="Content\img\menu\desert\salatadefructe.jpg" />
     <Content Include="Content\img\menu\desert\serbet.jpg" />
     <Content Include="Content\img\menu\desert\tiramisu.jpg" />
-    <Content Include="Content\img\menu\garnituri\bulgurcuciupercisrtidii.webp" />
-    <Content Include="Content\img\menu\garnituri\cartoficaacasa.webp" />
+    <Content Include="Content\img\menu\garnituri\bulgurcuciupercisrtidii.jpg" />
+    <Content Include="Content\img\menu\garnituri\cartoficaacasa.jpg" />
     <Content Include="Content\img\menu\garnituri\cartofifierticumarar.jpg" />
     <Content Include="Content\img\menu\garnituri\garnituradefirma.jpg" />
-    <Content Include="Content\img\menu\garnituri\mamaliga.webp" />
-    <Content Include="Content\img\menu\garnituri\orezculegume.webp" />
+    <Content Include="Content\img\menu\garnituri\mamaliga.jpg" />
+    <Content Include="Content\img\menu\garnituri\orezculegume.jpg" />
     <Content Include="Content\img\menu\garnituri\piuredeavocado.jpg" />
     <Content Include="Content\img\menu\garnituri\piuredecartofi.jpg" />
     <Content Include="Content\img\menu\garnituri\piuredesfecla.jpg" />
     <Content Include="Content\img\menu\intai\bors.jpg" />
-    <Content Include="Content\img\menu\intai\ciorbadepesteregala.webp" />
-    <Content Include="Content\img\menu\intai\gazpacho.webp" />
+    <Content Include="Content\img\menu\intai\ciorbadepesteregala.jpg" />
+    <Content Include="Content\img\menu\intai\gazpacho.jpg" />
     <Content Include="Content\img\menu\intai\soleanca.jpg" />
     <Content Include="Content\img\menu\intai\supacremadeciupercicutrufe.jpg" />
-    <Content Include="Content\img\menu\intai\supacremadedovleac.webp" />
-    <Content Include="Content\img\menu\intai\supacremadelintecufeliiderataafumata.webp" />
-    <Content Include="Content\img\menu\intai\supacremademazarecutartardecreveti.webp" />
+    <Content Include="Content\img\menu\intai\supacremadedovleac.jpg" />
+    <Content Include="Content\img\menu\intai\supacremadelintecufeliiderataafumata.jpg" />
+    <Content Include="Content\img\menu\intai\supacremademazarecutartardecreveti.jpg" />
     <Content Include="Content\img\menu\intai\supacremadepsanac.jpg" />
     <Content Include="Content\img\menu\intai\zeama.jpg" />
-    <Content Include="Content\img\menu\la gratar\bibandemarelagratar.webp" />
-    <Content Include="Content\img\menu\la gratar\doradolagratar.webp" />
-    <Content Include="Content\img\menu\la gratar\filededoradolagratar.webp" />
-    <Content Include="Content\img\menu\la gratar\kebabdecreveti.webp" />
-    <Content Include="Content\img\menu\la gratar\pastravlagratar.webp" />
-    <Content Include="Content\img\menu\la gratar\somonlagratar.webp" />
+    <Content Include="Content\img\menu\la gratar\bibandemarelagratar.jpg" />
+    <Content Include="Content\img\menu\la gratar\doradolagratar.jpg" />
+    <Content Include="Content\img\menu\la gratar\filededoradolagratar.jpg" />
+    <Content Include="Content\img\menu\la gratar\kebabdecreveti.jpg" />
+    <Content Include="Content\img\menu\la gratar\pastravlagratar.jpg" />
+    <Content Include="Content\img\menu\la gratar\somonlagratar.jpg" />
     <Content Include="Content\img\menu\pasarelagratar\aripioaredepui.jpg" />
     <Content Include="Content\img\menu\pasarelagratar\filedepui.jpg" />
     <Content Include="Content\img\menu\pasarelagratar\frigaruideporc.jpg" />
@@ -287,7 +314,7 @@
     <Content Include="Content\img\menu\peste\clatitecufructedemare.jpg" />
     <Content Include="Content\img\menu\peste\creveticusosdincoacaza.jpg" />
     <Content Include="Content\img\menu\peste\crevetitigerlagratar.jpg" />
-    <Content Include="Content\img\menu\peste\filedesomonpepatdepolentacucascaval.webp" />
+    <Content Include="Content\img\menu\peste\filedesomonpepatdepolentacucascaval.jpg" />
     <Content Include="Content\img\menu\peste\gratindinfilededoradocucreveti.jpg" />
     <Content Include="Content\img\menu\peste\parjoaledinfilededorado.jpg" />
     <Content Include="Content\img\menu\peste\pirjoalecucreveti.jpg" />
@@ -360,24 +387,8 @@
     <Content Include="Content\img\testimonials\testimonials-5.jpg" />
     <Content Include="Content\img\vip.jpg" />
     <Content Include="Scripts\aos.js" />
-    <Content Include="Content\bootstrap-grid.css" />
-    <Content Include="Content\bootstrap-grid.min.css" />
-    <Content Include="Content\bootstrap-grid.rtl.css" />
-    <Content Include="Content\bootstrap-grid.rtl.min.css" />
     <Content Include="Content\bootstrap-icons\bootstrap-icons.css" />
     <Content Include="Content\bootstrap-icons\index.html" />
-    <Content Include="Content\bootstrap-reboot.css" />
-    <Content Include="Content\bootstrap-reboot.min.css" />
-    <Content Include="Content\bootstrap-reboot.rtl.css" />
-    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
-    <Content Include="Content\bootstrap-utilities.css" />
-    <Content Include="Content\bootstrap-utilities.min.css" />
-    <Content Include="Content\bootstrap-utilities.rtl.css" />
-    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\bootstrap.rtl.css" />
-    <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\bootstrap\css\bootstrap-grid.css" />
     <Content Include="Content\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap\css\bootstrap-grid.rtl.css" />
@@ -411,6 +422,12 @@
     <Content Include="Content\glightbox\css\glightbox.min.css" />
     <Content Include="Content\glightbox\js\glightbox.js" />
     <Content Include="Scripts\authetification_style.js" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\glightbox.min.js" />
     <Content Include="Content\isotope-layout\isotope.pkgd.js" />
     <Content Include="Scripts\isotope.pkgd.min.js" />
@@ -465,12 +482,6 @@
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.bundle.js" />
-    <Content Include="Scripts\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\bootstrap.esm.js" />
-    <Content Include="Scripts\bootstrap.esm.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\bootstrap-icons\bootstrap-icons.json" />
     <Content Include="Content\bootstrap-icons\fonts\bootstrap-icons.woff" />
     <Content Include="Content\bootstrap-icons\fonts\bootstrap-icons.woff2" />
@@ -516,6 +527,28 @@
     <Content Include="Content\forms\contact.php" />
     <Content Include="Content\img\gallery\baza.avif" />
     <Content Include=".vs\Sarkis.csproj.dtbcache.json" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -534,45 +567,31 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReservationController.cs" />
+    <Compile Include="Extension\HttpContextExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AuthViewModel.cs" />
+    <Compile Include="Models\ProducModel.cs" />
+    <Compile Include="Models\UserData.cs" />
+    <Compile Include="Models\UserLogin.cs" />
+    <Compile Include="Models\UserRegister.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="Content\bootstrap.rtl.min.css.map" />
-    <Content Include="Content\bootstrap.rtl.css.map" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
-    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
-    <Content Include="Content\bootstrap-utilities.min.css.map" />
-    <Content Include="Content\bootstrap-utilities.css.map" />
-    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
-    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
-    <Content Include="Content\bootstrap-reboot.min.css.map" />
-    <Content Include="Content\bootstrap-reboot.css.map" />
-    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
-    <Content Include="Content\bootstrap-grid.rtl.css.map" />
-    <Content Include="Content\bootstrap-grid.min.css.map" />
-    <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="packages.config" />
-    <Content Include="Scripts\bootstrap.min.js.map" />
-    <Content Include="Scripts\bootstrap.js.map" />
-    <Content Include="Scripts\bootstrap.esm.min.js.map" />
-    <Content Include="Scripts\bootstrap.esm.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -586,7 +605,8 @@
     <Content Include="Views\Shared\Rezervare.cshtml" />
     <Content Include="Views\Shared\profile.cshtml" />
     <Content Include="Views\Auth\Authentification.cshtml" />
-    <Content Include="Views\Shared\Reservation.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\AddProduct.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -598,8 +618,18 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\js\" />
     <Folder Include="Content\php-email-form\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\Register\" />
     <Folder Include="Views\Reservation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinesLogic\BussinesLogic.csproj">
+      <Project>{1c05d0bd-90ee-40f1-855a-9be6ec3a2dc9}</Project>
+      <Name>BussinesLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{de488f27-7ae8-40c5-a710-2b9bc6c81501}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -632,7 +662,10 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
   </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

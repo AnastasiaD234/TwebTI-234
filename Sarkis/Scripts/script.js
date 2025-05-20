@@ -123,7 +123,7 @@ buyNowButton.addEventListener("click", () => {
 
     if (!userLoggedIn) {
         alert("Trebuie să fii logat pentru a finaliza comanda.");
-         window.location.href = "/Auth/Authentification";// Redirecționare către login
+         window.location.href = "Authentification.cshtml";// Redirecționare către login
         return;
     }
 

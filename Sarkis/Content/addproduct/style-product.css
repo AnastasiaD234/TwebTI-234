@@ -1,0 +1,25 @@
+﻿/* Asigură fundal și font general */
+body {
+     background-color: #f4f4f4;
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+/* Containerul care se va centra */
+.center-wrapper {
+     display: flex;
+     justify-content: center; /* pe orizontală */
+     align-items: center; /* pe verticală */
+     height: 100vh; /* ocupă întreaga înălțime a paginii */
+}
+
+/* Formularul propriu-zis */
+.form-container {
+     width: 100%;
+     max-width: 500px;
+     background-color: white;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}

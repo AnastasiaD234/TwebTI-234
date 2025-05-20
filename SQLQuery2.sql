@@ -1,0 +1,9 @@
+﻿CREATE TABLE UDbTable (
+    Id INT PRIMARY KEY IDENTITY,
+    Username NVARCHAR(30) NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(50) NOT NULL,
+    LastLogin DATETIME,
+    LastIP NVARCHAR(50),
+    Level INT
+);

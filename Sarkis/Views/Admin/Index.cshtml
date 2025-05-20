@@ -1,0 +1,60 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+     <meta charset="utf-8" />
+     <title>Panou de administrare</title>
+
+     <style>
+          /* ===== 1. Centrare pe tot ecranul ===== */
+          /* ===== Panoul de administrare ===== */
+          .admin-panel {
+               /* nu afectează altceva; doar acest <section> */
+               display: flex;
+               flex-direction: column; /* titlul deasupra listei */
+               align-items: center; /* centru orizontal */
+               justify-content: center; /* centru vertical în interiorul secțiunii */
+               min-height: 80vh; /* lasă spațiu, dar nu acoperă tot ecranul */
+               text-align: center;
+               gap: 1.5rem; /* spațiu între titlu și listă */
+          }
+
+          /* ===== Lista de link‑uri din panou ===== */
+          .admin-links {
+               list-style: none;
+               margin: 0;
+               padding: 0;
+               display: flex;
+               gap: 2rem;
+          }
+
+               .admin-links a {
+                    color: #fff; /* sau tema ta */
+                    background: #111;
+                    border-radius: 6px;
+                    padding: .5rem 1.25rem;
+                    text-decoration: none;
+                    transition: transform .2s;
+               }
+
+                    .admin-links a:hover {
+                         transform: scale(1.05);
+                    }
+
+     </style>
+</head>
+<body>
+
+     <section class="admin-panel">
+          <h2>Panou de administrare</h2>
+
+          <ul class="admin-links">
+               <li><a href="@Url.Action("AddProduct", "Admin")">Adaugă produs</a></li>
+               <li><a href="@Url.Action("AddGalleryImage", "Admin")">Adaugă imagine în galerie</a></li>
+          </ul>
+     </section>
+
+
+</body>
+</html>

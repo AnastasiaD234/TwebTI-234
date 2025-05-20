@@ -119,18 +119,24 @@ buyNowButton.addEventListener("click", () => {
     updateCartCount(0);
     updateTotalPrice();
     alert("Thank you for your purchase!");
+     function verificaAutentificareSauRedirectioneaza() {
+          const userLoggedIn = localStorage.getItem("userLoggedIn") === "true";
 
-    if (!userLoggedIn) {
-        alert("Trebuie să fii logat pentru a finaliza comanda.");
-        window.location.href = "authentification.html"; // Redirecționare către login
-        return;
-    }
+          if (!userLoggedIn) {
+               alert("Trebuie să fii logat pentru a accesa această secțiune.");
+
+               window.location.href = "/Views/Auth/Authentification.cshtml"; // Redirecționare către login
+          } else {
+               window.location.href = "/Views/Reservation/Rezervare.cshtml"; // Redirecționare către rezervare
+          }
+     }
+
 
 
 
 });
 
-let userLoggedIn = localStorage.getItem("userLoggedIn") === "true"; // Simulăm autentificarea
+
  
 
 
